@@ -3,9 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Button layoutX="99.0" layoutY="97.0" mnemonicParsing="false" text="click me" />
-   </children>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.sample.ButtonController">
+    <children>
+        <Button layoutX="99.0" layoutY="97.0" mnemonicParsing="false" onMouseClicked="#click" text="click me" />
+        <Label layoutX="189.0" layoutY="101.0" stylesheets="@../css/mycss.css" fx:id="xxx" />
+    </children>
 </AnchorPane>

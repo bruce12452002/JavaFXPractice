@@ -13,5 +13,7 @@ Help -> Find Action：搜尋「Switch Boot JDK」，然後會提示重啟 IDE，
 ※升級 IDE
 
 ※都不行還可以安裝 Oracle 的軟體，但沒有嵌在 IDE 裡
+雖然可在 Settings 搜尋 javaFX，路徑選擇安裝的路徑。
+之後，在 fxml 按右鍵 Open in SceneBuilder 即可打開，但實際上還是沒有嵌在 IDE 裡
 https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html
 
