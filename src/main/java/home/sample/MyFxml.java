@@ -7,7 +7,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 
 public class MyFxml extends Application {
@@ -24,9 +23,11 @@ public class MyFxml extends Application {
         // InputStream is = getClass().getResourceAsStream("/home/xxx.fxml");
         // Parent p = new FXMLLoader().load(is);
 
-
         if (url != null) {
-            Parent p = FXMLLoader.load(url);
+            // 以下兩種方法擇一
+            // Parent p = FXMLLoader.load(url);
+            Parent p = new FXMLLoader(url).load();
+
             Scene scene = new Scene(p);
             stage.setScene(scene);
         }
